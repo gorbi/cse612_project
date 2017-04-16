@@ -1,0 +1,17 @@
+Timestamp user latitude longitude status(Log on,Log off,auth failed),IP,Device,browser 
+
+1. -Too many login attempts in small time frame
+   -Too many failed login attempts within a particular timeframe.
+
+2. -If user logs in from two distant locations in suspicious time frame.
+   -If the user logs in from a different location which is at a considerable distance 
+    from the location they generally log in from. (Using latitude and longitude)
+
+3. If user logs in in from a different device and/or browser.
+
+4. If user logs in from different IP address in small timeframe.
+   -Multiple users log in using the same IP address.
+  
+
+
+http://ieeexplore.ieee.org/document/6849281/
