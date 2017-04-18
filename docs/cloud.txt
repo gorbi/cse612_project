@@ -1,4 +1,7 @@
-Timestamp user latitude longitude status(Log on,Log off,auth failed),IP,Device,browser 
+------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------- Raw notes first session ------------------------------------------------
+
+Timestamp user latitude longitude status(Log on,Log off,auth failed),IP,Device,browser
 
 1. -Too many login attempts in small time frame
    -Too many failed login attempts within a particular timeframe.
@@ -12,6 +15,17 @@ Timestamp user latitude longitude status(Log on,Log off,auth failed),IP,Device,b
 4. If user logs in from different IP address in small timeframe.
    -Multiple users log in using the same IP address.
   
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------- Definition & detection of anomaly ------------------------------------------
+
+An event in the network can be termed as anomaly if it exceeds the anomaly factor set by the administrator for that
+network
+
+Factors present in the event that determine the anomaly factor of an event
+    * Location spoofing (has same factor)
+       Event is arising from IP which is known VPN or Proxy
+       Location of the IP & event's location is different
+    * User profiling
 
 
 http://ieeexplore.ieee.org/document/6849281/
