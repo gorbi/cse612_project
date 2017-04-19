@@ -1,0 +1,2 @@
+log_level,log_tag,timestamp,user,location,ip,event,device
+Information,System,4/15/2017  7:05:22 PM,admin,"43.039153,-76.135116",128.230.226.218,User [admin] logged in,OS X 12.10.4

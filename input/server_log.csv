@@ -1,2 +1,0 @@
-log_level,log_tag,timestamp,user,location,ip,event,device,browser,screen resolution
-Information,System,4/15/2017  7:05:22 PM,admin,Syracuse,"43.039153,-76.135116",User [admin] logged in,OS X 12.10.4,Safari 10.1,1680 1050
