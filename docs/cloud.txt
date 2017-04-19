@@ -24,8 +24,13 @@ network
 Factors present in the event that determine the anomaly factor of an event
     * Location spoofing (has same factor)
        Event is arising from IP which is known VPN or Proxy
-       Location of the IP & event's location is different
-    * User profiling
+       Event's location & location of the IP is different
+    * User profiling (requires sorting based on timestamp)
+       Event is arising from a device which is different than what user normally uses
+       User is already logged in from different location
+       User's previous event was an auth failure
+       Current distance is impossible to reach from last known
+
 
 
 http://ieeexplore.ieee.org/document/6849281/
