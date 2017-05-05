@@ -21,6 +21,14 @@ Timestamp user latitude longitude status(Log on,Log off,auth failed),IP,Device,b
 An event in the network can be termed as anomaly if it exceeds the anomaly factor set by the administrator for that
 network
 
+For first stage of MapReduce, IP is the key to detect location spoofing
+For the second stage of MapReduce, user is the key to build user data
+In the final reducer, the different anomalies are detected and total anomaly factor is determined for the event
+
+Factor for different anomalies, average household, user data size and anomaly threshold need to be set for working
+These varies from system to system and depends on the security level required by the administrator for the
+given network
+
 Factors present in the event that determine the anomaly factor of an event
     * Location spoofing (has same factor)
        Event is arising from IP which is known VPN or Proxy
