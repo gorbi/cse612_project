@@ -16,6 +16,8 @@ import java.io.File;
 public class DetectNetworkAnomalyJob {
 
     public static final int ARG_HOUSEHOLD_COUNT = 3;
+    public static final int ARG_USERPROFILE_SIZE = 10;
+    public static final double ARG_SET_ANOMALY_FACTOR = 0.70;
 
     public static void main(String[] args) throws Exception {
         FileUtil.fullyDelete(new File(new Path(args[1] + "_location").toString()));
