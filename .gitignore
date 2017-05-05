@@ -3,3 +3,4 @@
 .DS_Store
 /out/*
 /data/output/*
+/data/output_location/*
