@@ -1,2 +1,21 @@
 #log_level,log_tag,timestamp,user,location,ip,event,device
+Information,System,10/08/2014  8:15:24 PM,admin,43.039153|-76.135116,128.230.226.218,User [admin] logged in,OS X 12.10.4
+Information,System,10/08/2014  8:25:24 PM,admin,43.039153|-76.135116,128.230.226.218,User [admin] logged out,OS X 12.10.4
+Information,System,10/08/2014  8:30:24 PM,admin,43.039153|-76.135116,128.230.226.218,User [admin] authentication failure,OS X 12.10.4
+Information,System,12/05/2014  6:07:08 AM,u11,36.28922|-81.76073,120.0.0.0,User [u11] authentication failure,OS X 12.0
+Information,System,12/05/2014  6:17:08 AM,u11,36.28922|-81.76073,120.0.0.0,User [u11] authentication failure,OS X 12.0
+Information,System,12/05/2014  6:25:08 AM,u11,36.28922|-81.76073,120.0.0.0,User [u11] authentication failure,OS X 12.0
+Information,System,12/05/2014  6:07:08 AM,u11,36.28922|-81.76073,120.0.0.0,User [u11] logged in,OS X 12.0
+Information,System,1/02/2015  12:08:14 PM,u21,16.17811|-31.65962,128.120.120.120,User [u21] authentication failure,Android 4.0
+Information,System,1/02/2015  12:18:15 PM,u21,16.17811|-31.65962,128.120.120.120,User [u21] logged in,Android 4.0
+Information,System,3/03/2015  9:06:20 AM,u20,36.28922|-81.76073,120.0.0.0,User [u20] authentication failure,iOS 10.3
+Information,System,3/03/2015  9:08:45 AM,u20,36.28922|-81.76073,120.120.0.0,User [u20] logged in,iOS 10.3
+Information,System,5/03/2015  10:15:50 AM,u02,37.42247|-122.08424,128.230.138.174,User [u09] logged in,Android 5.1
+Information,System,6/10/2015  8:06:10 PM,u15,53.36490|-2.27082,128.230.138.174,User [u15] logged in,uBuntu
+Information,System,6/10/2015  8:06:10 PM,u15,53.36490|-2.27082,128.230.138.174,User [u15] logged out,uBuntu
+Information,System,7/11/2015  11:06:01 AM,u20,55.36491|-99.27082,128.130.138.114,User [u20] authentication failure,iOS 10.1
+Information,System,7/11/2015  11:10:57 AM,u20,55.36491|-99.27082,128.130.138.114,User [u20] authentication failure,iOS 10.1
+Information,System,7/11/2015  11:16:15 AM,u20,55.36491|-99.27082,128.130.138.114,User [u20] logged in,iOS 10.1
 Information,System,4/15/2017  7:05:22 PM,admin,43.039153|-76.135116,128.230.226.218,User [admin] logged in,OS X 12.10.4
+Information,System,4/15/2017  7:10:14 PM,admin,43.039153|-76.135116,128.230.226.218,User [admin] logged out,OS X 12.10.4
+Information,System,5/25/2017  8:10:24 AM,admin,33.059153|-76.135116,128.230.226.218,User [admin] logged out,OS X 12.10.4
